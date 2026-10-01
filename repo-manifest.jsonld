@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/pokemon-agent/commit/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9",
       "git:hexsha": "f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-01T09:05:17.113424+00:00"
     }
   ]
 }

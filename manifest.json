@@ -165,7 +165,9 @@
           "githubUrl": "https://github.com/astral-sh/ruff",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9/chunk-001.nq.gz",
+      "dep": "dep/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

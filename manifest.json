@@ -44,6 +44,127 @@
       ],
       "ast": [
         "aggregate/ast/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "fastapi",
+          "ecosystem": "PYPI",
+          "version": "0.104.0",
+          "githubOrg": "fastapi",
+          "githubRepo": "fastapi",
+          "githubCommit": "38f191dcd30c7e7b7d422b4406f8eb8c6805b09d",
+          "githubTag": "0.104.0",
+          "githubUrl": "https://github.com/fastapi/fastapi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "uvicorn",
+          "ecosystem": "PYPI",
+          "version": "0.24.0",
+          "githubOrg": "sponsors",
+          "githubRepo": "Kludex",
+          "githubUrl": "https://github.com/sponsors/Kludex",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pillow",
+          "ecosystem": "PYPI",
+          "version": "10.0.0",
+          "githubOrg": "python-pillow",
+          "githubRepo": "Pillow",
+          "githubCommit": "6e28ed1f36d0eb74053af54e1eddc9c29db698cd",
+          "githubTag": "10.0.0",
+          "githubUrl": "https://github.com/python-pillow/Pillow",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyboy",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "Baekalfen",
+          "githubRepo": "PyBoy",
+          "githubCommit": "a15f3418cf6c69bbc637168887303202e0a19254",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/Baekalfen/PyBoy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pygba",
+          "ecosystem": "PYPI",
+          "version": "0.1.0",
+          "githubOrg": "dvruette",
+          "githubRepo": "pygba",
+          "githubUrl": "https://github.com/dvruette/pygba",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "aiofiles",
+          "ecosystem": "PYPI",
+          "version": "23.0.0",
+          "githubOrg": "Tinche",
+          "githubRepo": "aiofiles#history",
+          "githubUrl": "https://github.com/Tinche/aiofiles#history",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.28",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.21",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "httpx",
+          "ecosystem": "PYPI",
+          "version": "0.25.0",
+          "githubOrg": "encode",
+          "githubRepo": "httpx",
+          "githubCommit": "c3585a5ccfa57bec653f3846b8625a27d11dcd5e",
+          "githubTag": "0.25.0",
+          "githubUrl": "https://github.com/encode/httpx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.1.0",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "172ac2c9a27040e4a60726f82cabed6166af094a",
+          "githubTag": "v0.1.0",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],

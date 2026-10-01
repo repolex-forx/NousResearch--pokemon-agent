@@ -1,20 +1,21 @@
-[2026-10-01T09:00:33Z] === ENRICH ITERATION 1 START | repo=NousResearch/pokemon-agent sha=f8a03e4a ===
-[2026-10-01T09:00:33Z] [iter=1] PHASE START: enrich repo=NousResearch/pokemon-agent sha=f8a03e4a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f8a03e4a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9.nq.gz
-[2026-10-01T09:00:49Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
-[2026-10-01T09:00:51Z] [iter=1] AST store loaded triples=267521 load_secs=2 mem_mb=473 MB
-[2026-10-01T09:00:51Z] [iter=1] Step 2: Finding LSP targets mem_mb=473 MB
-[2026-10-01T09:00:51Z] [iter=1] LSP targets found call_sites=1814 imports=118 extends=15 implements=0 secs=0
-[2026-10-01T09:00:51Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=473 MB
-[2026-10-01T09:00:52Z] [iter=1] Position index built positions=17958 nodes_with_types=23415 secs=1 mem_mb=473 MB
-[2026-10-01T09:00:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=473 MB already_completed_types=[] already_completed_files=0
-[2026-10-01T09:00:52Z] [iter=1] Resolving target type target_type=call_site count=1814
-[2026-10-01T09:01:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=5 resolved=215 errors=141 current=pokemon_agent/collision.py
-[2026-10-01T09:01:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=18 resolved=738 errors=409 current=pokemon_agent/pathfinding.py
-[2026-10-01T09:02:01Z] [iter=1] Target type resolved target_type=call_site resolved=997 errors=564 secs=69 mem_mb=473 MB
-[2026-10-01T09:02:01Z] [iter=1] Resolving target type target_type=import_statement count=118
-[2026-10-01T09:02:03Z] [iter=1] Target type resolved target_type=import_statement resolved=107 errors=0 secs=2 mem_mb=473 MB
-[2026-10-01T09:02:03Z] [iter=1] Resolving target type target_type=extends_clause count=15
-[2026-10-01T09:02:04Z] [iter=1] Target type resolved target_type=extends_clause resolved=15 errors=0 secs=1 mem_mb=473 MB
-[2026-10-01T09:02:07Z] [iter=1] Step 5: Writing final enrichment file triples=16663
-[2026-10-01T09:02:07Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9.nq.gz size_kb=297
-[2026-10-01T09:02:07Z] [iter=1] PHASE END: enrich elapsed_s=94 elapsed_min=1.6 total_triples=16663
+[2026-10-01T09:02:28Z] === ENRICH ITERATION 1 START | repo=NousResearch/pokemon-agent sha=f8a03e4a ===
+[2026-10-01T09:02:28Z] [iter=1] PHASE START: enrich repo=NousResearch/pokemon-agent sha=f8a03e4a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f8a03e4a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9.nq.gz
+[2026-10-01T09:02:44Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-01T09:02:46Z] [iter=1] AST store loaded triples=267521 load_secs=2 mem_mb=470 MB
+[2026-10-01T09:02:46Z] [iter=1] Step 2: Finding LSP targets mem_mb=470 MB
+[2026-10-01T09:02:47Z] [iter=1] LSP targets found call_sites=1814 imports=118 extends=15 implements=0 secs=0
+[2026-10-01T09:02:47Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=470 MB
+[2026-10-01T09:02:48Z] [iter=1] Position index built positions=17958 nodes_with_types=23415 secs=1 mem_mb=470 MB
+[2026-10-01T09:02:48Z] [iter=1] Step 3: Starting LSP resolution mem_mb=470 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T09:02:48Z] [iter=1] Resolving target type target_type=call_site count=1814
+[2026-10-01T09:03:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=3 resolved=151 errors=79 current=pokemon_agent/overlay.py
+[2026-10-01T09:03:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=11 resolved=465 errors=305 current=pokemon_agent/state/builder.py
+[2026-10-01T09:04:11Z] [iter=1] Target type resolved target_type=call_site resolved=997 errors=564 secs=83 mem_mb=470 MB
+[2026-10-01T09:04:11Z] [iter=1] Resolving target type target_type=import_statement count=118
+[2026-10-01T09:04:11Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=1.7 files_done=0 resolved=0 errors=0 current=pokemon_agent/emulator.py
+[2026-10-01T09:04:13Z] [iter=1] Target type resolved target_type=import_statement resolved=107 errors=0 secs=2 mem_mb=470 MB
+[2026-10-01T09:04:13Z] [iter=1] Resolving target type target_type=extends_clause count=15
+[2026-10-01T09:04:15Z] [iter=1] Target type resolved target_type=extends_clause resolved=15 errors=0 secs=1 mem_mb=470 MB
+[2026-10-01T09:04:18Z] [iter=1] Step 5: Writing final enrichment file triples=16663
+[2026-10-01T09:04:19Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/f8a03e4a8bc58f1d9dda6d677a7436cc832a57a9.nq.gz size_kb=297
+[2026-10-01T09:04:19Z] [iter=1] PHASE END: enrich elapsed_s=111 elapsed_min=1.8 total_triples=16663
